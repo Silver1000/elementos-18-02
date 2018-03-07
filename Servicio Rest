@@ -1,0 +1,9 @@
+Pasos para consumir un servicio REST en un cliente en framework
+angular 5
+1-Crear una entidad identica a la entidad que se quiere consumir:Mensajito
+2-Incorporar el modulo para usar clientes http en angular 5 (app.module.ts)
+3-Agregar la clase HttpClient en la componente en la cual se desee mostrar la informacion 
+4-Dependiendo de tu aplicacion hacer una llamada asincronica a tu back-end (nuestro servicio en el servidor)
+es como ajax+programacion reactiva. 
+asincronico:realiza una invocacion de la informacion del sistema automaticamente 
+programacion reactiva: el programa realiza acciones automacamente ejemplo: mensajes en facebook
