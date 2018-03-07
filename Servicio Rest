@@ -4,6 +4,13 @@ angular 5
 2-Incorporar el modulo para usar clientes http en angular 5 (app.module.ts)
 3-Agregar la clase HttpClient en la componente en la cual se desee mostrar la informacion 
 4-Dependiendo de tu aplicacion hacer una llamada asincronica a tu back-end (nuestro servicio en el servidor)
+5-Invocar el metodo get apropiado al servicio el cual regresa  un tipo de dato Observable
 es como ajax+programacion reactiva. 
+6-Presentar la informacion del servicio en tu pagina web,en este caso, nuestro arreglo de mensajito[], usando una directiva:sirve para integrar arreglos json
+se llama *ngFor
 asincronico:realiza una invocacion de la informacion del sistema automaticamente 
 programacion reactiva: el programa realiza acciones automacamente ejemplo: mensajes en facebook
+funcion reactiva:setTimeout ((tipo de retorno)=>{funcion},tiempo que maneja un evento 1200 milisegundos) 1.2 segundos
+recibe una funcion la cual va ser la conexion al servidor (=>(lambda)indica que van a proporciona una funcion al metodo)
+observable:entidades que el objeto observador puede detectar, esto si previamnete el objeto observador
+url obtendremos un arreglo de mensajito
